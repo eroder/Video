@@ -1,3 +1,6 @@
+const imageSearch = require('image-search-google');
+const client = new imageSearch('012083763351849494459:xjwuixt7smu', 'AIzaSyBAKRkaJzvW-gPoh6f1HODcIh_Z0meFTjs');
+
 function start() {
 	
 	const content = {
@@ -10,7 +13,7 @@ function start() {
 	   		images: ["..."]
 	   	},
 	   	{
-	   		text: "banana é rica em potacio",
+	   		text: "banana é rica em potassio",
 	   		keywords: ["potacio"],
 	   		images: ["..."]
 	   	},
@@ -21,9 +24,12 @@ function start() {
 	    	}
 	  	]
 	}
+	client.search('Mahatma Gandhi', {size: 'large'});
+	 
+	console.log ("nao");
+	// search for certain size
 
-	console.log(content)
-
+	console.log ('fim');
 }
 
 start()

@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/eroder/Video/issues"
   },
-  "homepage": "https://github.com/eroder/Video#readme"
+  "homepage": "https://github.com/eroder/Video#readme",
+  "dependencies": {
+    "fotology": "^1.2.2",
+    "fotology-x": "^1.2.4",
+    "gulp": "^4.0.0",
+    "gulp-coffee": "^3.0.3",
+    "image-search-google": "^1.3.0"
+  }
 }
